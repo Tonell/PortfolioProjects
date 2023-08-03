@@ -5,7 +5,6 @@ Queries used for Tableau Project
 */
 
 
-
 -- 1. 
 
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
@@ -61,17 +60,8 @@ order by PercentPopulationInfected desc
 
 
 
-
-
-
-
-
-
-
-
-
--- Queries I originally had, but excluded some because it created too long of video
--- Here only in case you want to check them out
+-- Queries I originally had, it was too long. 
+-- Here so i may see what i had done previously or if i decide create additional visuals 
 
 
 -- 1.
